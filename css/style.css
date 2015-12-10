@@ -1,23 +1,42 @@
 .header-nav {
-  padding: 2em 0;
+  padding: 2.25em 0;
   background: white;
   text-align: right;
 
+}
+
+.header-nav ul {
+  margin-right:18em;
+  margin-bottom:-1.5em;
+
 
 }
+
 
 .header-nav ul li a {
   display: inline-block;
   margin-right: 1em;
   float: right;
   text-align: right;
-  border-left: 12em;
   color: grey;
   text-decoration: none;
+  padding-left: 1em;
+  font-weight: lighter;
+  font-size: 15.5px
+
 }
+
+.header-nav ul li a:hover {
+  color: black;
+}
+
+
+
  .header-nav .works {
-   color:black;
+   color: #4d4d4d;
+   font-weight: normal;
  }
+
 
 
 .logo {
@@ -25,6 +44,7 @@
   left:0;
   top:0;
   padding: 12px 8px;
+  padding-left:11em;
 
 }
 
