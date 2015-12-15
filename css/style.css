@@ -1,15 +1,19 @@
 .top-nav {
-  height: 4rem;
+  height: 4.5rem;
   background: white;
   text-align: right;
 }
 
 .top-nav ul {
   margin:0;
-  width: 50%;
+  width: 60%;
   list-style: none;
   padding:1.5em 0;
   float:right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
 
 .top-nav ul li a {
@@ -20,26 +24,23 @@
   color: grey;
   text-decoration: none;
   padding-left: 1em;
-  font-weight: lighter;
-  font-size: 15.5px
+  font-weight: light;
 }
 
 .top-nav ul li a:hover {
-  color: black;
+  cursor: pointer;
+  color: #333333;
 }
 
 .top-nav .works {
-   color: #4d4d4d;
-   font-weight: normal;
+  color: #4c5058;
+   font-weight: 500;
  }
-
-
 
 .logo {
   float:left;
   top:0;
   padding: 12px 0;
-
 }
 
 .logo img {
@@ -48,11 +49,59 @@
 }
 
 .top-nav div{
-  width:80%;
+  width:75%;
   margin: 0 auto;
 }
 
+.introduction{
+  background-image: url('/images/background-image.jpeg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  color: white;
+}
+
+.introduction > div {
+  text-align: center;
+  padding: 12em 0;
+}
+
+.introduction h1 {
+  font-weight: lighter;
+  font-size: 3.125rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.introduction h3 {
+  font-weight: lighter;
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+
+
+
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    font-size: 1.125rem;ß
+    }
+
+button:hover {
+  cusor: pointer;
+  background-color: #ff471a;
+}
 
 body {
   background-color: lightgrey;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
 }
