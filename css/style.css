@@ -44,6 +44,12 @@ html {
    font-weight: 500;
  }
 
+.top-nav{
+  position: fixed;
+  width: 100%;
+  z-index:999;
+}
+
 .logo {
   float:left;
   top:0;
@@ -109,7 +115,7 @@ button:hover {
 }
 
 .cases h2{
-  font-size: 42px;
+  font-size: 44px;
   font-weight:100;
 }
 
@@ -121,12 +127,17 @@ button:hover {
 }
 
 .cases ul {
-  padding-right: 6rem;
+  padding-right: 4rem;
 }
 
 .cases .devices h3 {
   font-size: 24px;
   font-weight: 400;
+  height: 4em;
+  /*border: 1px solid black;*/
+  box-sizing: border-box;
+
+
 }
 
 
