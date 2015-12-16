@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .top-nav {
   height: 4.5rem;
   background: white;
@@ -55,10 +62,10 @@
 
 .introduction{
   background-image: url('/images/background-image.jpeg');
-  background-position: center bottom;
+  background-position: 0 bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45.938rem;
+  height: 595px;
   color: white;
 }
 
@@ -80,9 +87,6 @@
   font-size: 1.563rem;
 }
 
-
-
-
 .big-button {
     text-shadow: none;
     border-style: none;
@@ -91,17 +95,44 @@
     line-height: 1.33;
     background-color: #f15a29;
     border-color: #f15a29;
-    font-size: 1.125rem;ß
-    }
+    font-size: 1.125rem;
+}
 
 button:hover {
   cusor: pointer;
   background-color: #ff471a;
 }
 
+.cases  {
+  text-align: center;
+  padding: 5em 0;
+}
+
+.cases h2{
+  font-size: 42px;
+  font-weight:100;
+}
+
+.cases li {
+  display: inline-block;
+  /*margin-left:1rem;*/
+  margin-right:3rem;
+  font-weight:100;
+}
+
+.cases ul {
+  padding-right: 6rem;
+}
+
+.cases .devices h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+
 body {
-  background-color: lightgrey;
+  background-color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-
 }
