@@ -102,6 +102,8 @@ html {
     background-color: #f15a29;
     border-color: #f15a29;
     font-size: 1.125rem;
+    width: 9.75rem;
+    height: 3.5rem;
 }
 
 button:hover {
@@ -111,7 +113,7 @@ button:hover {
 
 .cases  {
   text-align: center;
-  padding: 5em 0;
+  padding: 5em 0 3em;
 }
 
 .cases h2{
@@ -122,25 +124,71 @@ button:hover {
 .cases li {
   display: inline-block;
   /*margin-left:1rem;*/
-  margin-right:3rem;
+  margin-right: 5rem;
   font-weight:100;
+
+
 }
 
-.cases ul {
-  padding-right: 4rem;
+ ul {
+  padding: 0;
 }
 
 .cases .devices h3 {
   font-size: 24px;
   font-weight: 400;
-  height: 4em;
+  /*height: 4em;*/
   /*border: 1px solid black;*/
   box-sizing: border-box;
 
-
 }
 
+.footer  {
+  text-align: center;
+}
 
+.footer .social li{
+    margin-right: .25rem;
+    margin-left: .25rem;
+    padding: 10px 0px;
+    border: 1px solid #F5F5F5;
+    display: inline-block;
+    border-radius: 50%;
+    width: 2.5em;
+    margin-top: -5px;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-instagram {
+  color: #3f729b;
+}
+
+.footer h5 {
+  font-weight: normal;
+  font-size: 16.5px;
+  margin-top: 19px;
+  margin-bottom: 2px;
+}
+
+hr{
+  text-align: center;
+  width: 55%;
+  border-top: #FFFAFA;
+  margin-bottom: 3px;
+}
+
+ .footer p {
+  color: grey;
+  font-weight: lighter;
+  font-size: 14.25px;
+}
 
 body {
   background-color: #FFFFFF;
